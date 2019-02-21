@@ -1,0 +1,17 @@
+j:\2019\MyStaff\Problems.Tests\obj\Debug\netcoreapp2.2\Problems.Tests.csprojAssemblyReference.cache
+j:\2019\MyStaff\Problems.Tests\obj\Debug\netcoreapp2.2\Problems.Tests.csproj.CoreCompileInputs.cache
+j:\2019\MyStaff\Problems.Tests\obj\Debug\netcoreapp2.2\Problems.Tests.AssemblyInfoInputs.cache
+j:\2019\MyStaff\Problems.Tests\obj\Debug\netcoreapp2.2\Problems.Tests.AssemblyInfo.cs
+j:\2019\MyStaff\Problems.Tests\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.dll
+j:\2019\MyStaff\Problems.Tests\bin\Debug\netcoreapp2.2\NUnit3.TestAdapter.pdb
+j:\2019\MyStaff\Problems.Tests\bin\Debug\netcoreapp2.2\nunit.engine.netstandard.dll
+j:\2019\MyStaff\Problems.Tests\bin\Debug\netcoreapp2.2\Problems.Tests.deps.json
+j:\2019\MyStaff\Problems.Tests\bin\Debug\netcoreapp2.2\Problems.Tests.runtimeconfig.json
+j:\2019\MyStaff\Problems.Tests\bin\Debug\netcoreapp2.2\Problems.Tests.runtimeconfig.dev.json
+j:\2019\MyStaff\Problems.Tests\bin\Debug\netcoreapp2.2\Problems.Tests.dll
+j:\2019\MyStaff\Problems.Tests\bin\Debug\netcoreapp2.2\Problems.Tests.pdb
+j:\2019\MyStaff\Problems.Tests\bin\Debug\netcoreapp2.2\Problems.dll
+j:\2019\MyStaff\Problems.Tests\bin\Debug\netcoreapp2.2\Problems.pdb
+j:\2019\MyStaff\Problems.Tests\obj\Debug\netcoreapp2.2\Problems.Tests.csproj.CopyComplete
+j:\2019\MyStaff\Problems.Tests\obj\Debug\netcoreapp2.2\Problems.Tests.dll
+j:\2019\MyStaff\Problems.Tests\obj\Debug\netcoreapp2.2\Problems.Tests.pdb
