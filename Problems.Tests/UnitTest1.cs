@@ -1,44 +1,44 @@
 using NUnit.Framework;
 using Problems;
+using System.Collections.Generic;
+
 
 namespace Tests
 {
-    public class Tests
+    [TestFixture]
+    public class MyTests
     {
-        [SetUp]
-        public void Setup()
+        [TestCaseSource(typeof(MyDataClass), "TestCases")]
+        public string PrefixTest(string input)//My single test method
         {
+            Program s = new Program();
+            string result = s.Prefix(input);
+            return result;
         }
 
-        [Test]
-        public void Test1()
-        {
-            Program j= new Program();
-            string output1= j.Prefix("Where are you????");
-            Assert.AreEqual("17,3:Where are you????",output1);
-        }
-         [Test]
-        public void Test2()
-        {
-            Program p= new Program();
-            string output2= p.Prefix(null);
-            Assert.AreEqual(null,output2);
-        }
-         [Test]
-        public void Test3()
-        {
-            Program b= new Program();
-            string output3= b.Prefix("");
-            Assert.AreEqual("0,0",output3);
-        }
-          [Test]
-        public void Test4()
-        {
-            Program i= new Program();
-            string output4= i.Prefix("Hi");
-            Assert.AreEqual("2,1:Hi", output4);
-        }
+    }
 
-       
+    public class MyDataClass
+    {
+        public static IEnumerable TestCases
+        {
+            get
+            {
+               
+                yield return new TestCaseData("Where are you ????").Returns("17,3:Where are you????");
+                yield return new TestCaseData(null).Returns(null);
+                yield return new TestCaseData("").Returns("0,0");
+                yield return new TestCaseData("Hi").Returns("2,1:Hi");
+                yield return new TestCaseData("Why is the sun hot,those are the questions").Returns("42,9:Why is the sun hot,those are the questions");
+                yield return new TestCaseData("Awe").Returns("3,1:awe");
+                yield return new TestCaseData("H I V").Returns("5,3:H I V");
+            }
+        }
     }
 }
+    
+
+      
+
+       
+  
