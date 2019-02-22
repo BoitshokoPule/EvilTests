@@ -1,6 +1,6 @@
 using NUnit.Framework;
 using Problems;
-using System.Collections.Generic;
+using System.Collections;
 
 
 namespace Tests
