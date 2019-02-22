@@ -25,12 +25,12 @@ namespace Tests
             get
             {
                
-                yield return new TestCaseData("Where are you ????").Returns("17,3:Where are you????");
+                yield return new TestCaseData("Where are you ????").Returns("18,4:Where are you????");
                 yield return new TestCaseData(null).Returns(null);
                 yield return new TestCaseData("").Returns("0,0");
                 yield return new TestCaseData("Hi").Returns("2,1:Hi");
-                yield return new TestCaseData("Why is the sun hot,those are the questions").Returns("42,9:Why is the sun hot,those are the questions");
-                yield return new TestCaseData("Awe").Returns("3,1:awe");
+                yield return new TestCaseData("Why is the sun hot,those are the questions").Returns("42,8:Why is the sun hot,those are the questions");
+                yield return new TestCaseData("Awe").Returns("3,1:Awe");
                 yield return new TestCaseData("H I V").Returns("5,3:H I V");
             }
         }
