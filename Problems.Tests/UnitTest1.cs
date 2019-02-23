@@ -25,7 +25,7 @@ namespace Tests
             get
             {
                
-                yield return new TestCaseData("Where are you ????").Returns("18,4:Where are you????");
+                yield return new TestCaseData("Where are you ????").Returns("18,4:Where are you ????");
                 yield return new TestCaseData(null).Returns(null);
                 yield return new TestCaseData("").Returns("0,0");
                 yield return new TestCaseData("Hi").Returns("2,1:Hi");
